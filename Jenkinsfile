@@ -21,7 +21,7 @@ pipeline {
             }
              post {
                 success {
-                    junit 'NumberGenerator/target/surefire-reports/*.xml'
+                    echo "success"
                         }
                  }
                
